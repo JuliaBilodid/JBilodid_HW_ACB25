@@ -18,38 +18,49 @@ public class Task2Compare {
         int thirdnumber = sc.nextInt();
 
         if (firstnumber > secondnumber) {
+
             if (firstnumber > thirdnumber) {
+
                 System.out.println("The biggest number is " + firstnumber);
-                if (secondnumber > thirdnumber) {
+
+                    if (secondnumber > thirdnumber) {
+
                     System.out.println("The smallest number is " + thirdnumber);
 
-                } else {
+                    } else {
+
+                        System.out.println("The smallest number is " + secondnumber);
+
+                        }
+
+            } else {
+
+                    System.out.println("The biggest number is " + thirdnumber);
                     System.out.println("The smallest number is " + secondnumber);
                 }
 
-            } else {
-                System.out.println("The biggest number is " + thirdnumber);
-                System.out.println("The smallest number is " + secondnumber);
-            }
         } else {
+                if (secondnumber > thirdnumber) {
 
-            if (secondnumber > thirdnumber) {
                 System.out.println("The biggest number is " + secondnumber);
-                if (firstnumber > thirdnumber) {
+
+                    if (firstnumber > thirdnumber) {
+
                     System.out.println("The smallest number is " + thirdnumber);
 
-                } else {
-                    System.out.println("The smallest number is " + firstnumber);
-                }
+                     } else {
 
-            } else {
-                System.out.println("The biggest number is " + thirdnumber);
-                System.out.println("The smallest number is " + firstnumber);
+                        System.out.println("The smallest number is " + firstnumber);
+                         }
+
+                 } else {
+
+                        System.out.println("The biggest number is " + thirdnumber);
+                        System.out.println("The smallest number is " + firstnumber);
+                    }
+
             }
 
-
-        }
-
-
     }
+
 }
