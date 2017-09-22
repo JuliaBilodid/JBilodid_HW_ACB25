@@ -2,7 +2,7 @@ package Homework1;
 
 import java.util.Scanner;
 
-public class W_Task5_10PhoneTalking {
+public class W_Task_5_10PhoneTalking {
 
     public static void main(String[] args) {
 
